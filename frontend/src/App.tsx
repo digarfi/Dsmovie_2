@@ -1,8 +1,24 @@
 
+import {ReactComponent as LittleCat} from './assets/img/littleCat.svg';
+
 
 function App() {
   return (
-      <h1>Pagina Principal</h1>
+     <header>
+      <nav>
+          <div >
+              <h1>DSMovie</h1>
+              <a href="https://https://github.com/digarfi">
+                  <div>
+                      <LittleCat/>
+                      <p>devsuperior</p>
+                  </div>
+              </a>
+          </div>
+      </nav>
+  </header>
+
+
   );
 }
 
